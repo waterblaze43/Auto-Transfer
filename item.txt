@@ -1,0 +1,260 @@
+
+:AdventureTicket: Adventure Ticket ─ 256
+Tool
+
+:AdventureVoucher: Adventure Voucher ─ 3
+:WiltedFlower: Aetheryx' Flower ─ 5
+Collectable
+
+:Alcohol: Alcohol ─ 72
+Powep
+
+:Bullet: Ammo ─ 3
+Power-up
+
+:Ant: Ant ─ 333
+Sellable
+
+:Apple: Apple ─ 233
+Power-up
+
+:ArmpitHair: Armpit Hair ─ 5
+Collectable
+:King: Badosz's Card ─ 2
+Collectable
+
+:banknote: Bank Note ─ 425
+Power-up
+
+:SludgeBarrel: Barrel of Sludge ─ 8
+Collectable
+
+:Bean: Bean ─ 26
+Sellable
+
+:BlackHole: Black Hole ─ 2
+Collectable
+
+:BlueBits: Blue Plastic Bits ─ 271
+Collectable
+
+:BluesPlane: Blue's Plane ─ 3
+Collectable
+
+:Boar: Boar ─ 122
+Sellable
+:BottleOfWhiskey: Bottle of Whiskey ─ 2
+Power-up
+
+:sand: Box of Sand ─ 1,238
+Tool
+
+:BunnysApron: Bunny's Apron ─ 5
+Collectable
+
+:Camera: Camera ─ 11
+Tool
+
+:Candy: Candy ─ 104
+Power-up
+
+:phone: Cell Phone ─ 81
+Tool
+
+:ChillPill: Chill Pill ─ 71
+Collectable
+
+:CoinBomb: Coin Bomb ─ 5
+Tool
+:CommonFish: Common Fish ─ 577
+Sellable
+
+:Cookie: Cookie ─ 80
+Sellable
+
+:CornBag: Corn Seeds ─ 9
+Tool
+
+:CornDog: Corndog ─ 21
+Sellable
+
+:DailyBoxClosed: Daily Box ─ 2
+Loot Box
+
+:DankBoxClosed: Dank Box ─ 3
+Loot Box
+
+:Deer: Deer ─ 252
+Sellable
+
+:DarkusHoodie: Designer Hoodie ─ 7
+Collectable
+:Dragon: Dragon ─ 194
+Sellable
+
+:Duck: Duck ─ 260
+Sellable
+
+:DuctTape: Duct Tape ─ 2
+Tool
+
+:Ring: Engagement Ring ─ 4
+Collectable
+
+:ExoticFish: Exotic Fish ─ 156
+Sellable
+
+:FakeID: Fake ID ─ 15
+Tool
+
+:FishingBait: Fishing Bait ─ 2
+Power-up
+
+:MedFishingPole: Fishing Pole ─ 2
+Tool
+:Fossil: Fossil ─ 46
+Sellable
+
+:Baguette: Fresh Bread ─ 71
+Sellable
+
+:Garbage: Garbage ─ 746
+Sellable
+
+:GoldenBits: Golden Plastic Bits ─ 33
+Collectable
+
+:GraveStone: Gravestone ─ 860
+Collectable
+
+:GreenScreen: Green Screen ─ 1
+Tool
+
+:Hoe: Hoe ─ 16
+Tool
+
+:LowRifle: Hunting Rifle ─ 62
+Tool
+:JellyFish: Jelly Fish ─ 176
+Sellable
+
+:Keyboard: Keyboard ─ 17
+Tool
+
+:Kraken: Kraken ─ 58
+Sellable
+
+:Ladybug: Ladybug ─ 119
+Sellable
+
+:laptop: Laptop ─ 1
+Collectable
+
+:LegendaryFish: Legendary Fish ─ 76
+Sellable
+
+:LifeSaver: Life Saver ─ 1
+Power-up
+
+:LikeButton: Like Button ─ 3
+Collectable
+:LuckyHorseshoe: Lucky Horseshoe ─ 14
+Power-up
+
+:Microphone: Microphone ─ 2
+Tool
+
+:MoleMan: Mole Man ─ 43
+Sellable
+
+:Mouse: Mouse ─ 4
+Tool
+
+:MultiBits: Multi Colored Plastic Bits ─ 28
+Collectable
+
+:NormieBoxClosed: Normie Box ─ 12
+Loot Box
+
+:WoodBoxClosed: Old Box ─ 1
+Loot Box
+
+:OrangeBits: Orange Plastic Bits ─ 16
+Collectable
+:padlock: Padlock ─ 211
+Tool
+
+:PepeCoin: Pepe Coin ─ 3
+Collectable
+
+:PepeStatue: Pepe Statue ─ 184
+Collectable
+
+:PinkBits: Pink Plastic Bits ─ 1
+Collectable
+
+:Pizza: Pizza Slice ─ 40
+Power-up
+
+:PoliceBadge: Police Badge ─ 10
+Collectable
+
+:NormalPotato: Potato ☭ ─ 7
+Sellable
+
+:PurpleBits: Purple Plastic Bits ─ 15
+Collectable
+:Bunny: Rabbit ─ 872
+Sellable
+
+:RareFish: Rare Fish ─ 102
+Sellable
+
+:RarePepe: Rare Pepe ─ 61
+Collectable
+
+:RobbersWishlist: Robbers Wishlist ─ 3
+Tool
+
+:Scepter: Royal Scepter ─ 2
+Collectable
+
+:Hotdog: Sanic Hot Dog ─ 53
+Collectable
+
+:SeaWeed: Seaweed ─ 255
+Sellable
+
+:IronShovel: Shovel ─ 1
+Tool
+:shreddedcheese: Shredded Cheese ─ 79
+Power-up
+
+:Skunk: Skunk ─ 994
+Sellable
+
+:Spider: Spider ─ 47
+Sellable
+
+:YengsPaw: Squishy Paw ─ 1
+Collectable
+
+:StickBug: Stickbug ─ 67
+Sellable
+
+:TriviaTrophy: Trivia Trophy ─ 11,724
+Collectable
+
+:WaterBucket: Water Bucket ─ 6
+Tool
+
+:WateringCan: Watering Can ─ 20
+Tool
+:Worm: Worm ─ 1,410
+Sellable
+
+:Capybara: Zig's Capybara ─ 107
+Sellable
+
+:zombees: ZomB's ZomBee ─ 1
+Collectable
