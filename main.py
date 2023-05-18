@@ -35,13 +35,18 @@ itemdict.update({item[0:-1]: "0" for item in default if item[0:-1] not in itemdi
 for item in itemdict:
     match item:
         case "Apple":
-            if int(itemdict[item]) > 40:
-                itemdict[item] = str(int(itemdict[item]) - 40)
+            if int(itemdict[item]) > 20:
+                itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
         case "Hunting Rifle":
             if int(itemdict[item]) > 10:
                 itemdict[item] = str(int(itemdict[item]) - 10)
+            else:
+                itemdict[item] = "0"
+        case "Black Hole":
+            if int(itemdict[item]) > 1:
+                itemdict[item] = str(int(itemdict[item]) - 1)
             else:
                 itemdict[item] = "0"
         case "Camera":
@@ -52,6 +57,8 @@ for item in itemdict:
         case "Fishing Pole":
             itemdict[item] = "0"
         case "Shovel":
+            itemdict[item] = "0"
+        case "Laptop":
             itemdict[item] = "0"
         case "Keyboard":
             if int(itemdict[item]) > 5:
