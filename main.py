@@ -25,6 +25,8 @@ itemdict.update(
     }
 )
 
+print("[INFO] Running Program...")
+
 open("itemList.txt", "w").close()
 
 with open("defaultItemList.txt", "r", encoding="utf-8") as w:
