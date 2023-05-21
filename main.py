@@ -51,11 +51,6 @@ for item in itemdict:
                 itemdict[item] = str(int(itemdict[item]) - 1)
             else:
                 itemdict[item] = "0"
-        case "Camera":
-            if int(itemdict[item]) > 1:
-                itemdict[item] = str(int(itemdict[item]) - 1)
-            else:
-                itemdict[item] = "0"
         case "Fishing Pole":
             itemdict[item] = "0"
         case "Shovel":
