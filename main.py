@@ -21,7 +21,7 @@ itemdict.update(
     {
         matches.group(1): matches.group(2)
         for x in data
-        if (matches := re.search("^\:.+\: (.+) .? ([0-9]+)", x))
+        if (matches := re.search("^\:.+\: (.+) ─ ([0-9,]+)", x))
     }
 )
 
