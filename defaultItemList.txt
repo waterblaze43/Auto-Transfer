@@ -1,7 +1,18 @@
+Adventure Ticket
+Adventure Voucher
+Aetheryx' Flower
+Alcohol
+Ammo
+Ant
+Anti-Rob Pack
+Apple
+Armpit Hair
+Badosz's Card
 Ban Hammer
 Bank Note
 Barrel of Sludge
 Bean
+Bean Seeds
 Black Hole
 Blue Plastic Bits
 Blue's Plane
@@ -12,6 +23,7 @@ Broccoli Seeds
 Bunny's Apron
 Camera
 Candy
+Carrot Seeds
 Cell Phone
 Chill Pill
 Coin Bomb
@@ -22,34 +34,18 @@ Corncob
 Corndog
 Cowboy Boots
 Daily Box
-Ectoplasm
-Engagement Ring
-Exotic Fish
-Fishing Pole
-Hunting Rifle
-Keyboard
-Lucky Horseshoe
-Mouse
-Pink Plastic Bits
-Robbers Wishlist
-Shovel
-Shredded Cheese
-Trivia Trophy
-Adventure Ticket
-Aetheryx' Flower
-Alcohol
-Ammo
-Ant
-Apple
-Armpit Hair
-Badosz's Card
+Dank Box
 Deer
 Designer Hoodie
 Dragon
 Duck
 Duct Tape
+Ectoplasm
+Engagement Ring
+Exotic Fish
 Fake ID
 Fishing Bait
+Fishing Pole
 Fossil
 Fresh Bread
 Garbage
@@ -58,13 +54,22 @@ Gravestone
 Green Screen
 Grind Pack
 Hoe
+Hunting Rifle
 Jelly Fish
+Keyboard
 Kraken
 Ladybug
 Landmine
+Laptop
 Legendary Fish
+Life Saver
+Like Button
+Lucky Horseshoe
+Meme Box
 Microphone
 Mole Man
+Mouse
+Multi Colored Plastic Bits
 Normie Box
 Old Box
 Orange Plastic Bits
@@ -74,6 +79,8 @@ Pepe Coin
 Pepe Crown
 Pepe Medal
 Pepe Statue
+Pepe Trophy
+Pink Plastic Bits
 Pizza Slice
 Plastic Box
 Police Badge
@@ -83,33 +90,26 @@ Rabbit
 Rare Fish
 Rare Pepe
 Ring Light
+Robbers Wishlist
 Royal Scepter
 Sanic Hot Dog
 Seaweed
+Shop Coupon
+Shovel
+Shredded Cheese
 Skunk
 Spider
 Squishy Paw
 Stickbug
+Stolen Amulet
+Streak Freeze
+The Letter
 The Megaphone
-Used Diaper
+Trivia Trophy
 Water Bucket
 Watering Can
+Watermelon Seeds
 Work Box
 Worm
 Zig's Capybara
 ZomB's ZomBee
-Adventure Voucher
-Anti-Rob Pack
-Bean Seeds
-Carrot Seeds
-Dank Box
-Laptop
-Life Saver
-Meme Box
-Multi Colored Plastic Bits
-Pepe Trophy
-Shop Coupon
-Streak Freeze
-The Letter
-Watermelon Seeds
-Like Button

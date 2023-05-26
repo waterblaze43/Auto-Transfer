@@ -25,8 +25,6 @@ itemdict.update(
     }
 )
 
-print("[INFO] Running Program...")
-
 open("itemList.txt", "w").close()
 
 with open("defaultItemList.txt", "r", encoding="utf-8") as w:
@@ -42,8 +40,8 @@ for item in itemdict:
             else:
                 itemdict[item] = "0"
         case "Hunting Rifle":
-            if int(itemdict[item]) > 10:
-                itemdict[item] = str(int(itemdict[item]) - 10)
+            if int(itemdict[item]) > 20:
+                itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
         case "Black Hole":
