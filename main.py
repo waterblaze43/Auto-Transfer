@@ -21,30 +21,25 @@ itemdict.update(
     {
         matches.group(1): matches.group(2)
         for x in data
-        if (matches := re.search("^\:.+\: (.+) .? ([0-9]+)", x))
+        if (matches := re.search("^\:.+\: (.+) ─ ([0-9,]+)", x))
     }
 )
 
 open("itemList.txt", "w").close()
 
-with open("defaultItemList.txt", "r", encoding="utf-8") as w:
-    default = w.readlines()
-
-itemdict.update({item[0:-1]: "0" for item in default if item[0:-1] not in itemdict})
-
 for item in itemdict:
     match item:
         case "Apple":
-            if int(itemdict[item]) > 40:
-                itemdict[item] = str(int(itemdict[item]) - 40)
+            if int(itemdict[item]) > 20:
+                itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
         case "Hunting Rifle":
-            if int(itemdict[item]) > 10:
-                itemdict[item] = str(int(itemdict[item]) - 10)
+            if int(itemdict[item]) > 20:
+                itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
-        case "Camera":
+        case "Black Hole":
             if int(itemdict[item]) > 1:
                 itemdict[item] = str(int(itemdict[item]) - 1)
             else:
@@ -52,6 +47,8 @@ for item in itemdict:
         case "Fishing Pole":
             itemdict[item] = "0"
         case "Shovel":
+            itemdict[item] = "0"
+        case "Laptop":
             itemdict[item] = "0"
         case "Keyboard":
             if int(itemdict[item]) > 5:
@@ -71,7 +68,7 @@ for item in itemdict:
     with open("itemList.txt", "a+", encoding="utf-8") as f:
         f.write(item + "," + itemdict[item] + "\n")
 
-with open("itemList.txt", "r") as f:
+with open("itemList.txt", "r", encoding="utf-8") as f:
     finalData = sorted(f.readlines())
 
 
@@ -80,14 +77,16 @@ valueList = [x[0:-1].partition(",")[2] for x in finalData]
 
 
 print(len(itemsList), len(valueList), sep="\n")
-# print(json.dumps(itemsList))
+items = json.dumps(itemsList, ensure_ascii=False)
 values = json.dumps(valueList)
+# print(items)
 # print(values)
 
 with open("discord.ahk", "r", encoding="utf-8") as n:
     data = n.readlines()
 
 
+data[1] = f"""    arr := {items}\n"""
 data[2] = f"""    values := {values}\n"""
 
 
