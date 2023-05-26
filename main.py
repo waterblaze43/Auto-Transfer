@@ -1,7 +1,7 @@
 import json, re
 
 
-with open("item.txt", "r", encoding="utf-8") as f:
+with open("inventory.txt", "r", encoding="utf-8") as f:
     data = f.readlines()
 
 length = len(data)
@@ -34,11 +34,6 @@ for item in itemdict:
                 itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
-        case "Hunting Rifle":
-            if int(itemdict[item]) > 20:
-                itemdict[item] = str(int(itemdict[item]) - 20)
-            else:
-                itemdict[item] = "0"
         case "Black Hole":
             if int(itemdict[item]) > 1:
                 itemdict[item] = str(int(itemdict[item]) - 1)
@@ -46,21 +41,26 @@ for item in itemdict:
                 itemdict[item] = "0"
         case "Fishing Pole":
             itemdict[item] = "0"
-        case "Shovel":
-            itemdict[item] = "0"
-        case "Laptop":
-            itemdict[item] = "0"
+        case "Hunting Rifle":
+            if int(itemdict[item]) > 20:
+                itemdict[item] = str(int(itemdict[item]) - 20)
+            else:
+                itemdict[item] = "0"
         case "Keyboard":
             if int(itemdict[item]) > 5:
                 itemdict[item] = str(int(itemdict[item]) - 5)
             else:
                 itemdict[item] = "0"
+        case "Laptop":
+            itemdict[item] = "0"
+        case "Lucky Horseshoe":
+            itemdict[item] = "0"
         case "Mouse":
             if int(itemdict[item]) > 5:
                 itemdict[item] = str(int(itemdict[item]) - 5)
             else:
                 itemdict[item] = "0"
-        case "Lucky Horseshoe":
+        case "Shovel":
             itemdict[item] = "0"
         case "Trivia Trophy":
             itemdict[item] = "0"
