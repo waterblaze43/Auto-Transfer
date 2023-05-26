@@ -27,11 +27,6 @@ itemdict.update(
 
 open("itemList.txt", "w").close()
 
-with open("defaultItemList.txt", "r", encoding="utf-8") as w:
-    default = w.readlines()
-
-itemdict.update({item[0:-1]: "0" for item in default if item[0:-1] not in itemdict})
-
 for item in itemdict:
     match item:
         case "Apple":
@@ -73,7 +68,7 @@ for item in itemdict:
     with open("itemList.txt", "a+", encoding="utf-8") as f:
         f.write(item + "," + itemdict[item] + "\n")
 
-with open("itemList.txt", "r") as f:
+with open("itemList.txt", "r", encoding="utf-8") as f:
     finalData = sorted(f.readlines())
 
 
@@ -82,14 +77,16 @@ valueList = [x[0:-1].partition(",")[2] for x in finalData]
 
 
 print(len(itemsList), len(valueList), sep="\n")
-# print(json.dumps(itemsList))
+items = json.dumps(itemsList, ensure_ascii=False)
 values = json.dumps(valueList)
+# print(items)
 # print(values)
 
 with open("discord.ahk", "r", encoding="utf-8") as n:
     data = n.readlines()
 
 
+data[1] = f"""    arr := {items}\n"""
 data[2] = f"""    values := {values}\n"""
 
 
