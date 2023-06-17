@@ -34,11 +34,6 @@ for item in itemdict:
                 itemdict[item] = str(int(itemdict[item]) - 20)
             else:
                 itemdict[item] = "0"
-        case "Black Hole":
-            if int(itemdict[item]) > 1:
-                itemdict[item] = str(int(itemdict[item]) - 1)
-            else:
-                itemdict[item] = "0"
         case "Fishing Pole":
             itemdict[item] = "0"
         case "Hunting Rifle":
